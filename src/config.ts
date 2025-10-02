@@ -1,92 +1,153 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Павел Судаков",
+  title: "Портфолио",
+  description: "Павел Судаков - социолог и будущий геолог. Портфолио с опытом исследований и геологических экспедиций.",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "Sudakkov@mail.ru",
+    linkedin: "", // Оставлено пустым, добавьте ссылку, если есть
+    twitter: "", // Оставлено пустым, добавьте ссылку, если есть
+    github: "", // Оставлено пустым, добавьте ссылку, если есть
+    vk: "https://vk.com/pashe44ka", // Добавлено из вашего contact
+    telegram: "https://t.me/SeStanPtz", // Добавлено из вашего contact
+    whatsapp: "https://wa.me/79116665048", // Добавлено из вашего contact
+    viber: "viber://chat?number=79116665048" // Добавлено из вашего contact
   },
-  aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  aboutMe: `Здравствуйте! Меня зовут Павел Судаков, мне 22 года. 
+Я рад приветствовать вас на моём сайте-резюме. 
+Мой профессиональный путь объединяет различные профессии и дисциплины, в том числе социологию и геологию: опыт исследований в сфере социальных наук, работа в научных институтах и участие в геологических экспедициях. 
+Мне близка прикладная работа, требующая внимательности, усидчивости и трудолюбия.`,
+  skills: [
+    // Объединены hard и soft skills в один массив, как ожидает шаблон
+    "Социологические исследования",
+    "MS Word / Google Docs",
+    "MS PowerPoint / MS Excel",
+    "Python (NumPy, Pandas, Matplotlib)",
+    "SPSS / PSPP",
+    "Orange",
+    "Adobe Photoshop",
+    "Notion / Trello",
+    "Работа с картами",
+    "Статистический анализ",
+    "Ручные и электроинструменты",
+    "Работа в изолированных коллективах",
+    "Командная работа",
+    "Ответственность",
+    "Внимательность к деталям",
+    "Адаптивность",
+    "Быстрое обучение"
+  ],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Посетители парка «Береговая батарея №10»",
+      description: "Разработка портрета и потребностей посетителей",
+      link: "#",
+      skills: ["Социология", "Институт развития города СевГУ", "Весна 2024"]
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      name: "Посетители музея-заповедника «Архангельское»",
+      description: "Исследование аудитории музея",
+      link: "#",
+      skills: ["НИУ ВШЭ", "Институт прикладной социологии"]
     },
     {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+      name: "Трудовые конфликты в изолированной геологической экспедиции",
+      description: "Дипломная работа",
+      link: "#",
+      skills: ["Социология", "Полевое исследование"]
+    }
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "ФГБУ «Институт им. Карпинского», Кольская партия",
+      title: "Рабочий геологических экспедиций",
+      dateRange: "Июль – Сентябрь 2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
+        "Работа в изолированном коллективе",
+        "Сбор и обработка геологического материала",
+        "Физическая работа в полевых условиях"
+      ]
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "ФГБУ «ВСЕГЕИ», Тикшозерская партия",
+      title: "Горнорабочий",
+      dateRange: "Июнь 2023",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
+        "Полевые исследования",
+        "Помощь в подготовке и организации маршрутов",
+        "Работа с геологическим оборудованием"
+      ]
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "Виномаркет «Точка»",
+      title: "Продавец-консультант",
+      dateRange: "Март 2022",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
+        "Консультация покупателей",
+        "Работа с кассой и документацией"
+      ]
     },
+    {
+      company: "ИИМК РАН, группа полевых исследований",
+      title: "Археолог-лаборант",
+      dateRange: "Октябрь 2021",
+      bullets: [
+        "Подготовка находок к обработке",
+        "Участие в археологических исследованиях",
+        "Ведение лабораторной документации"
+      ]
+    },
+    {
+      company: "Частное лицо",
+      title: "Разнорабочий-садовник",
+      dateRange: "Сентябрь – Декабрь 2020",
+      bullets: [
+        "Уход за участком",
+        "Физическая работа"
+      ]
+    },
+    {
+      company: "ООО «Мирей Роботикс УК»",
+      title: "Экскурсовод на выставке «Космопарк»",
+      dateRange: "2019",
+      bullets: [
+        "Проведение экскурсий",
+        "Работа с посетителями"
+      ]
+    },
+    {
+      company: "ООО «Мирей Роботикс УК»",
+      title: "Консультант-аниматор на выставке «Робопарк»",
+      dateRange: "2018",
+      bullets: [
+        "Работа с детьми и взрослыми посетителями",
+        "Организация мероприятий"
+      ]
+    },
+    {
+      company: "МУОУ «Заозерская СОШ №10»",
+      title: "Помощник",
+      dateRange: "Июнь 2017",
+      bullets: [
+        "Техническая помощь",
+        "Организация учебных процессов"
+      ]
+    }
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Не указано", // Замените на ваш вуз, например, "НИУ ВШЭ"
+      degree: "Бакалавр социологии", // Замените на вашу степень
+      dateRange: "2018 - 2022", // Замените на ваши годы обучения
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+        "Дипломная работа по теме «Трудовые конфликты в изолированной геологической экспедиции»",
+        "Участие в научных конференциях по социологии"
+      ]
+    }
   ],
+  languages: [
+    "Английский — A2",
+    "Испанский — A1",
+    "Сербский — A1"
+  ]
 };
